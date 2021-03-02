@@ -11,5 +11,6 @@
   echo "Bujur: " . $data->gempa->Bujur . "<br>";
   echo "Lokasi: " . $data->gempa->Wilayah . "<br>";
   echo "Potensi: " . $data->gempa->Potensi . "<br>";
+  echo "Dirasakan: " . $data->gempa->Dirasakan . "<br>";
   echo "Shakemap: <br><img src=\"https://data.bmkg.go.id/DataMKG/TEWS/" . $data->gempa->Shakemap . "\" alt=\"Gempabumi Terbaru\">";
 ?>
