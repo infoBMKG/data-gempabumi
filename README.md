@@ -13,6 +13,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
   echo "<h2>Gempabumi Terbaru</h2>";
   echo "Tanggal: " . $data->gempa->Tanggal . "<br>";
   echo "Jam: " .  $data->gempa->Jam . "<br>";
+  echo "DateTime: " $data->gempa->DateTime . "<br>";
   echo "Magnitudo: " . $data->gempa->Magnitude . "<br>";
   echo "Kedalaman: " . $data->gempa->Kedalaman . "<br>";
   echo "Koordinat: " . $data->gempa->point->coordinates . "<br>";
@@ -35,6 +36,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaM5->Tanggal . "<br>";
     echo "Jam: " .  $gempaM5->Jam . "<br>";
+    echo "DateTime: " $gempaM5->DateTime . "<br>";
     echo "Magnitudo: " . $gempaM5->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaM5->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaM5->point->coordinates . "<br>";
@@ -57,6 +59,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaDirasakan->Tanggal . "<br>";
     echo "Jam: " .  $gempaDirasakan->Jam . "<br>";
+    echo "DateTime: " $gempaDirasakan->DateTime . "<br>";
     echo "Magnitudo: " . $gempaDirasakan->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaDirasakan->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaDirasakan->point->coordinates . "<br>";
