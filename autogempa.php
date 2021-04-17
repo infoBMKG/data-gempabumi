@@ -4,6 +4,7 @@
   echo "<h2>Gempabumi Terbaru</h2>";
   echo "Tanggal: " . $data->gempa->Tanggal . "<br>";
   echo "Jam: " .  $data->gempa->Jam . "<br>";
+  echo "DateTime: " $data->gempa->DateTime . "<br>";
   echo "Magnitudo: " . $data->gempa->Magnitude . "<br>";
   echo "Kedalaman: " . $data->gempa->Kedalaman . "<br>";
   echo "Koordinat: " . $data->gempa->point->coordinates . "<br>";
