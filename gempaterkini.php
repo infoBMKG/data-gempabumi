@@ -7,7 +7,7 @@
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaM5->Tanggal . "<br>";
     echo "Jam: " .  $gempaM5->Jam . "<br>";
-    echo "DateTime: " $gempaM5->DateTime . "<br>";
+    echo "DateTime: " . $gempaM5->DateTime . "<br>";
     echo "Magnitudo: " . $gempaM5->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaM5->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaM5->point->coordinates . "<br>";
