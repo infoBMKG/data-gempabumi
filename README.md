@@ -36,7 +36,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaM5->Tanggal . "<br>";
     echo "Jam: " .  $gempaM5->Jam . "<br>";
-    echo "DateTime: " $gempaM5->DateTime . "<br>";
+    echo "DateTime: " . $gempaM5->DateTime . "<br>";
     echo "Magnitudo: " . $gempaM5->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaM5->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaM5->point->coordinates . "<br>";
@@ -59,7 +59,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaDirasakan->Tanggal . "<br>";
     echo "Jam: " .  $gempaDirasakan->Jam . "<br>";
-    echo "DateTime: " $gempaDirasakan->DateTime . "<br>";
+    echo "DateTime: " . $gempaDirasakan->DateTime . "<br>";
     echo "Magnitudo: " . $gempaDirasakan->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaDirasakan->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaDirasakan->point->coordinates . "<br>";
