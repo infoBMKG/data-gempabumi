@@ -7,7 +7,7 @@
     echo "No: " . $i . "<br>";
     echo "Tanggal: " . $gempaDirasakan->Tanggal . "<br>";
     echo "Jam: " .  $gempaDirasakan->Jam . "<br>";
-    echo "DateTime: " $gempaDirasakan->DateTime . "<br>";
+    echo "DateTime: " . $gempaDirasakan->DateTime . "<br>";
     echo "Magnitudo: " . $gempaDirasakan->Magnitude . "<br>";
     echo "Kedalaman: " . $gempaDirasakan->Kedalaman . "<br>";
     echo "Koordinat: " . $gempaDirasakan->point->coordinates . "<br>";
