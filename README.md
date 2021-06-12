@@ -50,7 +50,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
 ```
 
 ### Mengolah Data JSON `gempaterkini.json` menggunakan Python
-Bisa dilihat pada tautan di [Google Colab](https://colab.research.google.com/drive/1LMXbDq7crmeLAo6a6Mfb5QOFBlHGpVsv?usp=sharing)
+Membaca data `gempaterkini.json`, melakukan pengolahan dan *plotting* data kegempaan gempa terkini menggunakan Python. Contoh kode bisa diakses melalui tautan [Google Colab](https://colab.research.google.com/drive/1LMXbDq7crmeLAo6a6Mfb5QOFBlHGpVsv?usp=sharing)
 
 ### Kode Baris PHP untuk Mengolah Data `gempadirasakan.xml`
 ```php
