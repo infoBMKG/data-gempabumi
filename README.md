@@ -1,12 +1,14 @@
 # Data Gempabumi Terbuka BMKG
-Data Gempabumi Terbuka BMKG telah tersedia di portal https://data.bmkg.go.id/gempabumi yang terdiri atas:
-1. Gempabumi Terbaru (`autogempa.xml`)
-2. Daftar 15 Gempabumi M 5.0+ (`gempaterkini.xml`)
-3. Daftar 15 Gempabumi Dirasakan (`gempadirasakan.xml`)
+Data Gempabumi Terbuka BMKG telah tersedia di portal https://data.bmkg.go.id/gempabumi dengan format XML dan JSON yang terdiri atas:
+1. Gempabumi Terbaru (`autogempa.xml` dan `autogempa.json`)
+2. Daftar 15 Gempabumi M 5.0+ (`gempaterkini.xml` dan `gempaterkini.json`)
+3. Daftar 15 Gempabumi Dirasakan (`gempadirasakan.xml` dan `gempadirasakan.json`)
 
-Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML gempabumi tersebut.
+Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data gempabumi tersebut.
 
-### Kode Baris PHP untuk Mengolah Data `autogempa.xml`
+## Mengolah Data XML Gempabumi
+
+#### Kode Baris PHP untuk Mengolah Data `autogempa.xml`
 ```php
 <?php
   $data = simplexml_load_file("https://data.bmkg.go.id/DataMKG/TEWS/autogempa.xml") or die("Gagal mengakses!");
@@ -26,7 +28,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
 ?>
 ```
 
-### Kode Baris PHP untuk Mengolah Data `gempaterkini.xml`
+#### Kode Baris PHP untuk Mengolah Data `gempaterkini.xml`
 ```php
 <?php
   $data = simplexml_load_file("https://data.bmkg.go.id/DataMKG/TEWS/gempaterkini.xml") or die ("Gagal ambil!");
@@ -49,7 +51,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data XML g
 ?>
 ```
 
-### Kode Baris PHP untuk Mengolah Data `gempadirasakan.xml`
+#### Kode Baris PHP untuk Mengolah Data `gempadirasakan.xml`
 ```php
 <?php
   $data = simplexml_load_file("https://data.bmkg.go.id/DataMKG/TEWS/gempadirasakan.xml") or die ("Gagal ambil!");
