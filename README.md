@@ -24,7 +24,7 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data gempa
   echo "Lokasi: " . $data->gempa->Wilayah . "<br>";
   echo "Potensi: " . $data->gempa->Potensi . "<br>";
   echo "Dirasakan: " . $data->gempa->Dirasakan . "<br>";
-  echo "Shakemap: <br><img src=\"https://data.bmkg.go.id/DataMKG/TEWS/" . $data->gempa->Shakemap . "\" alt=\"Gempabumi Terbaru\">";
+  echo "Shakemap: <br><img src=\"https://static.bmkg.go.id/" . $data->gempa->Shakemap . "\" alt=\"Gempabumi Terbaru\">";
 ?>
 ```
 
@@ -73,3 +73,6 @@ Berikut kode baris pemrograman PHP yang digunakan dalam mengolah data-data gempa
   }
 ?>
 ```
+
+## Attribution / Sumber Data
+**Perhatian!** Wajib untuk mencantumkan BMKG (Badan Meteorologi, Klimatologi, dan Geofisika) sebagai sumber data dan menampilkannya pada aplikasi atau sistem Anda.
